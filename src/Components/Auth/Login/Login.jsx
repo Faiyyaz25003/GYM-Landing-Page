@@ -38,7 +38,7 @@ export default function Login() {
         position: "top-right",
         autoClose: 2000,
         onClose: () => {
-          router.push("/https://gym-frontend-ebon.vercel.app/");
+          router.push("/https://gym-frontend-ebon.vercel.app");
         },
       });
     } catch (err) {
