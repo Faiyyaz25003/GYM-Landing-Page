@@ -1,5 +1,3 @@
-
-
 "use client";
 import { useState } from "react";
 import axios from "axios";
@@ -40,7 +38,7 @@ export default function Login() {
         position: "top-right",
         autoClose: 2000,
         onClose: () => {
-          router.push("/Home");
+          router.push("/https://gym-frontend-ebon.vercel.app/");
         },
       });
     } catch (err) {
